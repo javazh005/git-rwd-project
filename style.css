@@ -5,7 +5,7 @@
 
 /* <!-- navbar --> */
 
-  /* <!-- mainBanner --> */
+/* <!-- mainBanner --> */
 
   .mainBanner {
     background: url('img/confortableDesk.jpg');
@@ -30,5 +30,10 @@
   /* <!-- slider --> */
 
   /* <!-- jobs --> */
-
+.jobs{
+  min-height: 900px;
+  background: url('img/bethany-legg-9248.jpg');
+  background-size: cover;
+  background-position: center;
+}
   /* <!-- copyright --> */
