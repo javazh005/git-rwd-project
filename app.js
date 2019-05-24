@@ -52,3 +52,11 @@ const loadPhotos = () => {
         */
     } );
 }
+
+
+const menuClickHandler = () => {
+    $( 'ul.left-menu > li > a' ).on( 'click', function () {
+        $( 'ul.left-menu > li' ).removeClass( 'active' );
+        $( this ).parent().addClass( 'active' );
+    } );
+}
