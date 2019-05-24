@@ -1,16 +1,34 @@
-  /* <!-- navbar --> */
+/* <!-- common --> */
+.text-shadow{
+  text-shadow: 3px 3px 3px rgba(138, 138, 138, 0.81);
+}
 
+/* <!-- navbar --> */
 
   /* <!-- mainBanner --> */
 
+  .mainBanner {
+    background: url('img/confortableDesk.jpg');
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .my-container{
+    min-height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainBanner h1{
+    font-size: 80px;
+  }
 
   /* <!-- break --> */
 
-
   /* <!-- slider --> */
 
-
   /* <!-- jobs --> */
-
 
   /* <!-- copyright --> */
